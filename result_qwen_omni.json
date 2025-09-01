@@ -1,0 +1,1430 @@
+[
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-text-video",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 476.5405225753784,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with three inputs:\n\n1. A transcript of the spoken text (analyze linguistic cues such as irony, exaggeration, contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n3. A video of the speaker while speaking (analyze facial expressions like smirks, raised eyebrows, eye rolls, as well as gestures and body language)\n\nUse all three modalities together to accurately judge if the speakers intent is sarcastic.\n\nExamples:\n\nTranscript: Na das Wetter ist ja mal wieder super!\nAudio: Speaker uses exaggerated rising intonation and slow pacing  \nVideo: Speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nTranscript: Heute morgen war das Wetter eher schlecht.\nAudio: Speaker uses neutral tone and steady pacing  \nVideo: Speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.71,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.82,
+                "precision_non_sarc": 0.92,
+                "recall_non_sarc": 0.49,
+                "f1_score_non_sarc": 0.64,
+                "precision_macro": 0.81,
+                "recall_macro": 0.73,
+                "f1_macro": 0.73,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.76,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.85,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.49,
+                "f1_score_non_sarc_gold": 0.64,
+                "precision_macro_gold": 0.85,
+                "recall_macro_gold": 0.74,
+                "f1_macro_gold": 0.75,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-text-video",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 414.84748435020447,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with three inputs:\n\n1. A transcript of the spoken text (analyze linguistic cues such as irony, exaggeration, contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n3. A video of the speaker while speaking (analyze facial expressions like smirks, raised eyebrows, eye rolls, as well as gestures and body language)\n\nUse all three modalities together to accurately judge if the speakers intent is sarcastic.\n\nExamples:\n\nTranscript: Na das Wetter ist ja mal wieder super!\nAudio: Speaker uses exaggerated rising intonation and slow pacing  \nVideo: Speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nTranscript: Heute morgen war das Wetter eher schlecht.\nAudio: Speaker uses neutral tone and steady pacing  \nVideo: Speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.71,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.82,
+                "precision_non_sarc": 0.92,
+                "recall_non_sarc": 0.49,
+                "f1_score_non_sarc": 0.64,
+                "precision_macro": 0.81,
+                "recall_macro": 0.73,
+                "f1_macro": 0.73,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.76,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.86,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.51,
+                "f1_score_non_sarc_gold": 0.66,
+                "precision_macro_gold": 0.85,
+                "recall_macro_gold": 0.74,
+                "f1_macro_gold": 0.76,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-video",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 466.2217059135437,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. An audio recording of the speaker (analyze prosody, tone, pitch, pacing, intonation)\n2. A video recording of the speaker (analyze facial expressions such as smirks, raised eyebrows, eye rolls, and body language)\n\nUse BOTH audio and video cues together to judge if the speakers intent is sarcastic.\n\nExamples:\n\nAudio: The speaker uses exaggerated rising intonation and slow pacing on a positive phrase  \nVideo: The speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nAudio: The speaker uses neutral tone and steady pacing  \nVideo: The speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.67,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.79,
+                "precision_non_sarc": 0.9,
+                "recall_non_sarc": 0.39,
+                "f1_score_non_sarc": 0.55,
+                "precision_macro": 0.79,
+                "recall_macro": 0.68,
+                "f1_macro": 0.67,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.72,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.84,
+                "precision_non_sarc_gold": 0.96,
+                "recall_non_sarc_gold": 0.39,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.84,
+                "recall_macro_gold": 0.69,
+                "f1_macro_gold": 0.69,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-video",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 402.8458707332611,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. An audio recording of the speaker (analyze prosody, tone, pitch, pacing, intonation)\n2. A video recording of the speaker (analyze facial expressions such as smirks, raised eyebrows, eye rolls, and body language)\n\nUse BOTH audio and video cues together to judge if the speakers intent is sarcastic.\n\nExamples:\n\nAudio: The speaker uses exaggerated rising intonation and slow pacing on a positive phrase  \nVideo: The speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nAudio: The speaker uses neutral tone and steady pacing  \nVideo: The speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.67,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.79,
+                "precision_non_sarc": 0.9,
+                "recall_non_sarc": 0.39,
+                "f1_score_non_sarc": 0.55,
+                "precision_macro": 0.79,
+                "recall_macro": 0.68,
+                "f1_macro": 0.67,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.73,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.84,
+                "precision_non_sarc_gold": 0.96,
+                "recall_non_sarc_gold": 0.41,
+                "f1_score_non_sarc_gold": 0.57,
+                "precision_macro_gold": 0.85,
+                "recall_macro_gold": 0.7,
+                "f1_macro_gold": 0.71,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-only",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 99.59887719154358,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will receive ONE short audio clip at a time with NO transcript or video available.\n\nBase your decision solely on the audio recording of their speech.\n\nUse ONLY vocal cues such as tone, pitch, pacing, rhythm, stress, intonation, and prosody to decide if the speakers intent is sarcastic.\n\nExamples:\nAudio example 1: Speaker uses exaggerated rising intonation and slow pacing in a positive phrase that sounds insincere  \nOutput: sarc\n\nAudio example 2: Speaker uses normal pitch, steady pacing, and neutral tone in a factual statement  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.67,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.79,
+                "precision_non_sarc": 0.95,
+                "recall_non_sarc": 0.37,
+                "f1_score_non_sarc": 0.53,
+                "precision_macro": 0.81,
+                "recall_macro": 0.68,
+                "f1_macro": 0.66,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.72,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.83,
+                "precision_non_sarc_gold": 0.96,
+                "recall_non_sarc_gold": 0.37,
+                "f1_score_non_sarc_gold": 0.54,
+                "precision_macro_gold": 0.84,
+                "recall_macro_gold": 0.68,
+                "f1_macro_gold": 0.68,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-only",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 106.976797580719,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will receive ONE short audio clip at a time with NO transcript or video available.\n\nBase your decision solely on the audio recording of their speech.\n\nUse ONLY vocal cues such as tone, pitch, pacing, rhythm, stress, intonation, and prosody to decide if the speakers intent is sarcastic.\n\nExamples:\nAudio example 1: Speaker uses exaggerated rising intonation and slow pacing in a positive phrase that sounds insincere  \nOutput: sarc\n\nAudio example 2: Speaker uses normal pitch, steady pacing, and neutral tone in a factual statement  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.66,
+                "recall_sarc": 0.95,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.85,
+                "recall_non_sarc": 0.37,
+                "f1_score_non_sarc": 0.52,
+                "precision_macro": 0.76,
+                "recall_macro": 0.66,
+                "f1_macro": 0.65,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.71,
+                "recall_sarc_gold": 0.96,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.84,
+                "recall_non_sarc_gold": 0.36,
+                "f1_score_non_sarc_gold": 0.5,
+                "precision_macro_gold": 0.77,
+                "recall_macro_gold": 0.66,
+                "f1_macro_gold": 0.66,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-language",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 357.1816930770874,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two kinds of input:\n\n1. A transcript of the spoken text (what is said)\n2. A video of the speaker while speaking (how it is said)\n\nAnalyze the transcript for linguistic cues such as irony, contradiction, exaggeration, and phrasing.\n\nSimultaneously analyze the video for visual cues including facial expressions (e.g., smirks, raised eyebrows, eye rolls), gestures, posture, and body language that typically signal sarcasm.\n\nUse BOTH modalities together to make your judgment.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super! \nInput Video: Speaker rolls eyes and smirks while saying the sentence  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht.\nInput Video: Speaker maintains neutral facial expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.66,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.79,
+                "precision_non_sarc": 0.94,
+                "recall_non_sarc": 0.34,
+                "f1_score_non_sarc": 0.5,
+                "precision_macro": 0.8,
+                "recall_macro": 0.66,
+                "f1_macro": 0.64,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.7,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.9,
+                "recall_non_sarc_gold": 0.32,
+                "f1_score_non_sarc_gold": 0.48,
+                "precision_macro_gold": 0.8,
+                "recall_macro_gold": 0.65,
+                "f1_macro_gold": 0.65,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-language",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 106.79491114616394,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. A transcript of the spoken text (analyze phrasing, irony, exaggeration, and contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n\nUse BOTH inputs together to decide if the speaker’s intent is sarcastic.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super!  \nInput Audio: Speaker uses slow pacing and exaggerated rising intonation  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht. \nInput Audio: Speaker uses neutral tone and steady pacing  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.65,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.94,
+                "recall_non_sarc": 0.32,
+                "f1_score_non_sarc": 0.48,
+                "precision_macro": 0.79,
+                "recall_macro": 0.65,
+                "f1_macro": 0.63,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.71,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.83,
+                "precision_non_sarc_gold": 0.95,
+                "recall_non_sarc_gold": 0.36,
+                "f1_score_non_sarc_gold": 0.52,
+                "precision_macro_gold": 0.83,
+                "recall_macro_gold": 0.67,
+                "f1_macro_gold": 0.67,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-language",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 345.6636266708374,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two kinds of input:\n\n1. A transcript of the spoken text (what is said)\n2. A video of the speaker while speaking (how it is said)\n\nAnalyze the transcript for linguistic cues such as irony, contradiction, exaggeration, and phrasing.\n\nSimultaneously analyze the video for visual cues including facial expressions (e.g., smirks, raised eyebrows, eye rolls), gestures, posture, and body language that typically signal sarcasm.\n\nUse BOTH modalities together to make your judgment.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super! \nInput Video: Speaker rolls eyes and smirks while saying the sentence  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht.\nInput Video: Speaker maintains neutral facial expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.65,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.94,
+                "recall_non_sarc": 0.32,
+                "f1_score_non_sarc": 0.48,
+                "precision_macro": 0.79,
+                "recall_macro": 0.65,
+                "f1_macro": 0.63,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.7,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.9,
+                "recall_non_sarc_gold": 0.32,
+                "f1_score_non_sarc_gold": 0.48,
+                "precision_macro_gold": 0.8,
+                "recall_macro_gold": 0.65,
+                "f1_macro_gold": 0.65,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-text-video",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 190.8797357082367,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with three inputs:\n\n1. A transcript of the spoken text (analyze linguistic cues such as irony, exaggeration, contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n3. A video of the speaker while speaking (analyze facial expressions like smirks, raised eyebrows, eye rolls, as well as gestures and body language)\n\nUse all three modalities together to accurately judge if the speakers intent is sarcastic.\n\nExamples:\n\nTranscript: Na das Wetter ist ja mal wieder super!\nAudio: Speaker uses exaggerated rising intonation and slow pacing  \nVideo: Speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nTranscript: Heute morgen war das Wetter eher schlecht.\nAudio: Speaker uses neutral tone and steady pacing  \nVideo: Speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.65,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.89,
+                "recall_non_sarc": 0.33,
+                "f1_score_non_sarc": 0.48,
+                "precision_macro": 0.77,
+                "recall_macro": 0.65,
+                "f1_macro": 0.63,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.72,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.83,
+                "precision_non_sarc_gold": 0.92,
+                "recall_non_sarc_gold": 0.37,
+                "f1_score_non_sarc_gold": 0.53,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.68,
+                "f1_macro_gold": 0.68,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "text-only",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.18841481208801,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will be given ONE short sentence at a time, containing the transcript of a spoken statement.\n\nExamples:\nInput: Na das läuft ja mal wieder super!\nOutput: sarc\n\nInput: Heute morgen war das Wetter eher schlecht.\nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.64,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.94,
+                "recall_non_sarc": 0.31,
+                "f1_score_non_sarc": 0.46,
+                "precision_macro": 0.79,
+                "recall_macro": 0.65,
+                "f1_macro": 0.62,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.69,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.89,
+                "recall_non_sarc_gold": 0.29,
+                "f1_score_non_sarc_gold": 0.44,
+                "precision_macro_gold": 0.79,
+                "recall_macro_gold": 0.63,
+                "f1_macro_gold": 0.62,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-only",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 58.63119888305664,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will receive ONE short audio clip at a time with NO transcript or video available.\n\nBase your decision solely on the audio recording of their speech.\n\nUse ONLY vocal cues such as tone, pitch, pacing, rhythm, stress, intonation, and prosody to decide if the speakers intent is sarcastic.\n\nExamples:\nAudio example 1: Speaker uses exaggerated rising intonation and slow pacing in a positive phrase that sounds insincere  \nOutput: sarc\n\nAudio example 2: Speaker uses normal pitch, steady pacing, and neutral tone in a factual statement  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.64,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.96,
+                "recall_non_sarc": 0.29,
+                "f1_score_non_sarc": 0.44,
+                "precision_macro": 0.8,
+                "recall_macro": 0.64,
+                "f1_macro": 0.61,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.7,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.95,
+                "recall_non_sarc_gold": 0.31,
+                "f1_score_non_sarc_gold": 0.46,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.65,
+                "f1_macro_gold": 0.64,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-language",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 121.69447302818298,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. A transcript of the spoken text (analyze phrasing, irony, exaggeration, and contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n\nUse BOTH inputs together to decide if the speaker’s intent is sarcastic.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super!  \nInput Audio: Speaker uses slow pacing and exaggerated rising intonation  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht. \nInput Audio: Speaker uses neutral tone and steady pacing  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.64,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.77,
+                "precision_non_sarc": 0.88,
+                "recall_non_sarc": 0.31,
+                "f1_score_non_sarc": 0.46,
+                "precision_macro": 0.76,
+                "recall_macro": 0.64,
+                "f1_macro": 0.61,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.71,
+                "recall_sarc_gold": 0.97,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.88,
+                "recall_non_sarc_gold": 0.36,
+                "f1_score_non_sarc_gold": 0.51,
+                "precision_macro_gold": 0.79,
+                "recall_macro_gold": 0.66,
+                "f1_macro_gold": 0.66,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "text-only",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 34.93255305290222,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will be given ONE short sentence at a time, containing the transcript of a spoken statement.\n\nExamples:\nInput: Na das läuft ja mal wieder super!\nOutput: sarc\n\nInput: Heute morgen war das Wetter eher schlecht.\nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.64,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.78,
+                "precision_non_sarc": 0.96,
+                "recall_non_sarc": 0.28,
+                "f1_score_non_sarc": 0.43,
+                "precision_macro": 0.8,
+                "recall_macro": 0.63,
+                "f1_macro": 0.6,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.69,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.27,
+                "f1_score_non_sarc_gold": 0.42,
+                "precision_macro_gold": 0.81,
+                "recall_macro_gold": 0.63,
+                "f1_macro_gold": 0.62,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-language",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 60.76963448524475,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. A transcript of the spoken text (analyze phrasing, irony, exaggeration, and contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n\nUse BOTH inputs together to decide if the speaker’s intent is sarcastic.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super!  \nInput Audio: Speaker uses slow pacing and exaggerated rising intonation  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht. \nInput Audio: Speaker uses neutral tone and steady pacing  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.63,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.77,
+                "precision_non_sarc": 0.93,
+                "recall_non_sarc": 0.27,
+                "f1_score_non_sarc": 0.41,
+                "precision_macro": 0.78,
+                "recall_macro": 0.62,
+                "f1_macro": 0.59,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.69,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.29,
+                "f1_score_non_sarc_gold": 0.44,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.64,
+                "f1_macro_gold": 0.63,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-language",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 145.82814764976501,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two kinds of input:\n\n1. A transcript of the spoken text (what is said)\n2. A video of the speaker while speaking (how it is said)\n\nAnalyze the transcript for linguistic cues such as irony, contradiction, exaggeration, and phrasing.\n\nSimultaneously analyze the video for visual cues including facial expressions (e.g., smirks, raised eyebrows, eye rolls), gestures, posture, and body language that typically signal sarcasm.\n\nUse BOTH modalities together to make your judgment.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super! \nInput Video: Speaker rolls eyes and smirks while saying the sentence  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht.\nInput Video: Speaker maintains neutral facial expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.63,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.77,
+                "precision_non_sarc": 0.96,
+                "recall_non_sarc": 0.26,
+                "f1_score_non_sarc": 0.4,
+                "precision_macro": 0.79,
+                "recall_macro": 0.62,
+                "f1_macro": 0.59,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.69,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.27,
+                "f1_score_non_sarc_gold": 0.42,
+                "precision_macro_gold": 0.81,
+                "recall_macro_gold": 0.63,
+                "f1_macro_gold": 0.62,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-video",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 183.72676515579224,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. An audio recording of the speaker (analyze prosody, tone, pitch, pacing, intonation)\n2. A video recording of the speaker (analyze facial expressions such as smirks, raised eyebrows, eye rolls, and body language)\n\nUse BOTH audio and video cues together to judge if the speakers intent is sarcastic.\n\nExamples:\n\nAudio: The speaker uses exaggerated rising intonation and slow pacing on a positive phrase  \nVideo: The speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nAudio: The speaker uses neutral tone and steady pacing  \nVideo: The speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.63,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.77,
+                "precision_non_sarc": 0.92,
+                "recall_non_sarc": 0.26,
+                "f1_score_non_sarc": 0.4,
+                "precision_macro": 0.78,
+                "recall_macro": 0.62,
+                "f1_macro": 0.58,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.69,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.29,
+                "f1_score_non_sarc_gold": 0.44,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.64,
+                "f1_macro_gold": 0.63,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "text-only",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 19.113698959350586,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will be given ONE short sentence at a time, containing the transcript of a spoken statement.\n\nExamples:\nInput: Na das läuft ja mal wieder super!\nOutput: sarc\n\nInput: Heute morgen war das Wetter eher schlecht.\nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.62,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.76,
+                "precision_non_sarc": 0.95,
+                "recall_non_sarc": 0.21,
+                "f1_score_non_sarc": 0.35,
+                "precision_macro": 0.78,
+                "recall_macro": 0.6,
+                "f1_macro": 0.55,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.68,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.93,
+                "recall_non_sarc_gold": 0.24,
+                "f1_score_non_sarc_gold": 0.38,
+                "precision_macro_gold": 0.81,
+                "recall_macro_gold": 0.61,
+                "f1_macro_gold": 0.59,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-only",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 164.53119587898254,
+        "Timestamp": "2025-08-26_00-50",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou do NOT have access to audio or transcript.\nBase your  decision solely on the video of the speaker while speaking.\n\nFocus exclusively on visual sarcasm cues such as:\n- Facial expressions (e.g., smirks, raised eyebrows, eye rolls)\n- Gestures and hand movements\n- Body language and posture\n\nUse these visual signals to decide if the speakers intent is sarcastic.\n\nExamples:\n\nInput Video: Speaker rolls eyes and smirks while speaking  \nOutput: sarc\n\nInput Video: Speaker maintains neutral expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.72,
+                "recall_sarc": 0.37,
+                "f1_score_sarc": 0.49,
+                "precision_non_sarc": 0.5,
+                "recall_non_sarc": 0.82,
+                "f1_score_non_sarc": 0.62,
+                "precision_macro": 0.61,
+                "recall_macro": 0.59,
+                "f1_macro": 0.55,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.78,
+                "recall_sarc_gold": 0.4,
+                "f1_score_sarc_gold": 0.52,
+                "precision_non_sarc_gold": 0.45,
+                "recall_non_sarc_gold": 0.81,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.61,
+                "recall_macro_gold": 0.6,
+                "f1_macro_gold": 0.55,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-language",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 94.7754316329956,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.61,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.76,
+                "precision_non_sarc": 0.95,
+                "recall_non_sarc": 0.19,
+                "f1_score_non_sarc": 0.32,
+                "precision_macro": 0.78,
+                "recall_macro": 0.59,
+                "f1_macro": 0.54,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.68,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.94,
+                "recall_non_sarc_gold": 0.25,
+                "f1_score_non_sarc_gold": 0.4,
+                "precision_macro_gold": 0.81,
+                "recall_macro_gold": 0.62,
+                "f1_macro_gold": 0.6,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-language",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 88.96583080291748,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.61,
+                "recall_sarc": 0.98,
+                "f1_score_sarc": 0.75,
+                "precision_non_sarc": 0.9,
+                "recall_non_sarc": 0.2,
+                "f1_score_non_sarc": 0.33,
+                "precision_macro": 0.76,
+                "recall_macro": 0.59,
+                "f1_macro": 0.54,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.69,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.89,
+                "recall_non_sarc_gold": 0.27,
+                "f1_score_non_sarc_gold": 0.42,
+                "precision_macro_gold": 0.79,
+                "recall_macro_gold": 0.63,
+                "f1_macro_gold": 0.61,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-text-video",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 388.88772916793823,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.6,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.75,
+                "precision_non_sarc": 0.94,
+                "recall_non_sarc": 0.17,
+                "f1_score_non_sarc": 0.29,
+                "precision_macro": 0.77,
+                "recall_macro": 0.58,
+                "f1_macro": 0.52,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.67,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.8,
+                "precision_non_sarc_gold": 0.93,
+                "recall_non_sarc_gold": 0.22,
+                "f1_score_non_sarc_gold": 0.36,
+                "precision_macro_gold": 0.8,
+                "recall_macro_gold": 0.6,
+                "f1_macro_gold": 0.58,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-text-video",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 390.3405373096466,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.6,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 0.81,
+                "recall_non_sarc": 0.18,
+                "f1_score_non_sarc": 0.3,
+                "precision_macro": 0.7,
+                "recall_macro": 0.57,
+                "f1_macro": 0.52,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.66,
+                "recall_sarc_gold": 0.96,
+                "f1_score_sarc_gold": 0.78,
+                "precision_non_sarc_gold": 0.75,
+                "recall_non_sarc_gold": 0.2,
+                "f1_score_non_sarc_gold": 0.32,
+                "precision_macro_gold": 0.7,
+                "recall_macro_gold": 0.58,
+                "f1_macro_gold": 0.55,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-video",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 383.65144872665405,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.6,
+                "recall_sarc": 1.0,
+                "f1_score_sarc": 0.75,
+                "precision_non_sarc": 1.0,
+                "recall_non_sarc": 0.16,
+                "f1_score_non_sarc": 0.28,
+                "precision_macro": 0.8,
+                "recall_macro": 0.58,
+                "f1_macro": 0.51,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.67,
+                "recall_sarc_gold": 1.0,
+                "f1_score_sarc_gold": 0.8,
+                "precision_non_sarc_gold": 1.0,
+                "recall_non_sarc_gold": 0.19,
+                "f1_score_non_sarc_gold": 0.31,
+                "precision_macro_gold": 0.83,
+                "recall_macro_gold": 0.59,
+                "f1_macro_gold": 0.56,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-video",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 385.1775231361389,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.6,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 0.84,
+                "recall_non_sarc": 0.17,
+                "f1_score_non_sarc": 0.28,
+                "precision_macro": 0.72,
+                "recall_macro": 0.57,
+                "f1_macro": 0.51,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.66,
+                "recall_sarc_gold": 0.98,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 0.86,
+                "recall_non_sarc_gold": 0.2,
+                "f1_score_non_sarc_gold": 0.33,
+                "precision_macro_gold": 0.76,
+                "recall_macro_gold": 0.59,
+                "f1_macro_gold": 0.56,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "text-only",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 27.341575384140015,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.6,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.75,
+                "precision_non_sarc": 0.93,
+                "recall_non_sarc": 0.15,
+                "f1_score_non_sarc": 0.26,
+                "precision_macro": 0.77,
+                "recall_macro": 0.57,
+                "f1_macro": 0.5,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.66,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 0.9,
+                "recall_non_sarc_gold": 0.15,
+                "f1_score_non_sarc_gold": 0.26,
+                "precision_macro_gold": 0.78,
+                "recall_macro_gold": 0.57,
+                "f1_macro_gold": 0.52,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "text-only",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 32.52277708053589,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.59,
+                "recall_sarc": 1.0,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 1.0,
+                "recall_non_sarc": 0.12,
+                "f1_score_non_sarc": 0.21,
+                "precision_macro": 0.8,
+                "recall_macro": 0.56,
+                "f1_macro": 0.48,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.65,
+                "recall_sarc_gold": 1.0,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 1.0,
+                "recall_non_sarc_gold": 0.12,
+                "f1_score_non_sarc_gold": 0.21,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.5,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-only",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 83.70415449142456,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.59,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 0.92,
+                "recall_non_sarc": 0.12,
+                "f1_score_non_sarc": 0.21,
+                "precision_macro": 0.75,
+                "recall_macro": 0.55,
+                "f1_macro": 0.47,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.65,
+                "recall_sarc_gold": 1.0,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 1.0,
+                "recall_non_sarc_gold": 0.14,
+                "f1_score_non_sarc_gold": 0.24,
+                "precision_macro_gold": 0.83,
+                "recall_macro_gold": 0.57,
+                "f1_macro_gold": 0.51,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-language",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 330.36976623535156,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.58,
+                "recall_sarc": 0.97,
+                "f1_score_sarc": 0.73,
+                "precision_non_sarc": 0.79,
+                "recall_non_sarc": 0.12,
+                "f1_score_non_sarc": 0.2,
+                "precision_macro": 0.68,
+                "recall_macro": 0.55,
+                "f1_macro": 0.47,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.65,
+                "recall_sarc_gold": 0.97,
+                "f1_score_sarc_gold": 0.78,
+                "precision_non_sarc_gold": 0.75,
+                "recall_non_sarc_gold": 0.15,
+                "f1_score_non_sarc_gold": 0.25,
+                "precision_macro_gold": 0.7,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.51,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-language",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 54.73068952560425,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.59,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 0.91,
+                "recall_non_sarc": 0.11,
+                "f1_score_non_sarc": 0.19,
+                "precision_macro": 0.75,
+                "recall_macro": 0.55,
+                "f1_macro": 0.46,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.65,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 0.89,
+                "recall_non_sarc_gold": 0.14,
+                "f1_score_non_sarc_gold": 0.24,
+                "precision_macro_gold": 0.77,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.51,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-language",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 314.83630180358887,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.59,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 0.91,
+                "recall_non_sarc": 0.11,
+                "f1_score_non_sarc": 0.19,
+                "precision_macro": 0.75,
+                "recall_macro": 0.55,
+                "f1_macro": 0.46,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.65,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 0.89,
+                "recall_non_sarc_gold": 0.14,
+                "f1_score_non_sarc_gold": 0.24,
+                "precision_macro_gold": 0.77,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.51,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-only",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 95.16720175743103,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.59,
+                "recall_sarc": 1.0,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 1.0,
+                "recall_non_sarc": 0.1,
+                "f1_score_non_sarc": 0.17,
+                "precision_macro": 0.79,
+                "recall_macro": 0.55,
+                "f1_macro": 0.46,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.65,
+                "recall_sarc_gold": 1.0,
+                "f1_score_sarc_gold": 0.79,
+                "precision_non_sarc_gold": 1.0,
+                "recall_non_sarc_gold": 0.12,
+                "f1_score_non_sarc_gold": 0.21,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.5,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "text-only",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 15.91922402381897,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.58,
+                "recall_sarc": 1.0,
+                "f1_score_sarc": 0.74,
+                "precision_non_sarc": 1.0,
+                "recall_non_sarc": 0.09,
+                "f1_score_non_sarc": 0.16,
+                "precision_macro": 0.79,
+                "recall_macro": 0.54,
+                "f1_macro": 0.45,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.64,
+                "recall_sarc_gold": 1.0,
+                "f1_score_sarc_gold": 0.78,
+                "precision_non_sarc_gold": 1.0,
+                "recall_non_sarc_gold": 0.08,
+                "f1_score_non_sarc_gold": 0.16,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.54,
+                "f1_macro_gold": 0.47,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-only",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 316.3078649044037,
+        "Timestamp": "2025-08-26_00-34",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.57,
+                "recall_sarc": 0.93,
+                "f1_score_sarc": 0.71,
+                "precision_non_sarc": 0.58,
+                "recall_non_sarc": 0.12,
+                "f1_score_non_sarc": 0.19,
+                "precision_macro": 0.58,
+                "recall_macro": 0.53,
+                "f1_macro": 0.45,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.63,
+                "recall_sarc_gold": 0.94,
+                "f1_score_sarc_gold": 0.76,
+                "precision_non_sarc_gold": 0.54,
+                "recall_non_sarc_gold": 0.12,
+                "f1_score_non_sarc_gold": 0.19,
+                "precision_macro_gold": 0.59,
+                "recall_macro_gold": 0.53,
+                "f1_macro_gold": 0.48,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-only",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 52.66405510902405,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.58,
+                "recall_sarc": 1.0,
+                "f1_score_sarc": 0.73,
+                "precision_non_sarc": 1.0,
+                "recall_non_sarc": 0.06,
+                "f1_score_non_sarc": 0.12,
+                "precision_macro": 0.79,
+                "recall_macro": 0.53,
+                "f1_macro": 0.43,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.64,
+                "recall_sarc_gold": 1.0,
+                "f1_score_sarc_gold": 0.78,
+                "precision_non_sarc_gold": 1.0,
+                "recall_non_sarc_gold": 0.08,
+                "f1_score_non_sarc_gold": 0.16,
+                "precision_macro_gold": 0.82,
+                "recall_macro_gold": 0.54,
+                "f1_macro_gold": 0.47,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-only",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 311.86402559280396,
+        "Timestamp": "2025-08-24_22-30",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.57,
+                "recall_sarc": 0.95,
+                "f1_score_sarc": 0.71,
+                "precision_non_sarc": 0.57,
+                "recall_non_sarc": 0.09,
+                "f1_score_non_sarc": 0.15,
+                "precision_macro": 0.57,
+                "recall_macro": 0.52,
+                "f1_macro": 0.43,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.62,
+                "recall_sarc_gold": 0.94,
+                "f1_score_sarc_gold": 0.75,
+                "precision_non_sarc_gold": 0.4,
+                "recall_non_sarc_gold": 0.07,
+                "f1_score_non_sarc_gold": 0.12,
+                "precision_macro_gold": 0.51,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.43,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-only",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 131.70836353302002,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.57,
+                "recall_sarc": 0.93,
+                "f1_score_sarc": 0.7,
+                "precision_non_sarc": 0.5,
+                "recall_non_sarc": 0.1,
+                "f1_score_non_sarc": 0.16,
+                "precision_macro": 0.53,
+                "recall_macro": 0.51,
+                "f1_macro": 0.43,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.64,
+                "recall_sarc_gold": 0.92,
+                "f1_score_sarc_gold": 0.75,
+                "precision_non_sarc_gold": 0.53,
+                "recall_non_sarc_gold": 0.15,
+                "f1_score_non_sarc_gold": 0.24,
+                "precision_macro_gold": 0.58,
+                "recall_macro_gold": 0.53,
+                "f1_macro_gold": 0.49,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-text-video",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 175.41814184188843,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.57,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.73,
+                "precision_non_sarc": 0.86,
+                "recall_non_sarc": 0.06,
+                "f1_score_non_sarc": 0.12,
+                "precision_macro": 0.72,
+                "recall_macro": 0.53,
+                "f1_macro": 0.42,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.64,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.78,
+                "precision_non_sarc_gold": 0.86,
+                "recall_non_sarc_gold": 0.1,
+                "f1_score_non_sarc_gold": 0.18,
+                "precision_macro_gold": 0.75,
+                "recall_macro_gold": 0.55,
+                "f1_macro_gold": 0.48,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "audio-video",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 172.9121549129486,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.57,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.73,
+                "precision_non_sarc": 0.83,
+                "recall_non_sarc": 0.05,
+                "f1_score_non_sarc": 0.1,
+                "precision_macro": 0.7,
+                "recall_macro": 0.52,
+                "f1_macro": 0.41,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.64,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.78,
+                "precision_non_sarc_gold": 0.83,
+                "recall_non_sarc_gold": 0.08,
+                "f1_score_non_sarc_gold": 0.15,
+                "precision_macro_gold": 0.74,
+                "recall_macro_gold": 0.54,
+                "f1_macro_gold": 0.46,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-language",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 131.49891090393066,
+        "Timestamp": "2025-08-26_01-04",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.57,
+                "recall_sarc": 0.99,
+                "f1_score_sarc": 0.72,
+                "precision_non_sarc": 0.75,
+                "recall_non_sarc": 0.03,
+                "f1_score_non_sarc": 0.06,
+                "precision_macro": 0.66,
+                "recall_macro": 0.51,
+                "f1_macro": 0.39,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.62,
+                "recall_sarc_gold": 0.99,
+                "f1_score_sarc_gold": 0.76,
+                "precision_non_sarc_gold": 0.5,
+                "recall_non_sarc_gold": 0.02,
+                "f1_score_non_sarc_gold": 0.03,
+                "precision_macro_gold": 0.56,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.4,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-only",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 371.6369593143463,
+        "Timestamp": "2025-08-26_00-06",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou do NOT have access to audio or transcript.\nBase your  decision solely on the video of the speaker while speaking.\n\nFocus exclusively on visual sarcasm cues such as:\n- Facial expressions (e.g., smirks, raised eyebrows, eye rolls)\n- Gestures and hand movements\n- Body language and posture\n\nUse these visual signals to decide if the speakers intent is sarcastic.\n\nExamples:\n\nInput Video: Speaker rolls eyes and smirks while speaking  \nOutput: sarc\n\nInput Video: Speaker maintains neutral expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.39,
+                "recall_sarc": 0.19,
+                "f1_score_sarc": 0.26,
+                "precision_non_sarc": 0.37,
+                "recall_non_sarc": 0.62,
+                "f1_score_non_sarc": 0.47,
+                "precision_macro": 0.38,
+                "recall_macro": 0.4,
+                "f1_macro": 0.36,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.45,
+                "recall_sarc_gold": 0.19,
+                "f1_score_sarc_gold": 0.26,
+                "precision_non_sarc_gold": 0.32,
+                "recall_non_sarc_gold": 0.63,
+                "f1_score_non_sarc_gold": 0.43,
+                "precision_macro_gold": 0.39,
+                "recall_macro_gold": 0.41,
+                "f1_macro_gold": 0.34,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "Qwen/Qwen2.5-Omni-7B",
+        "Mode": "vision-only",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 331.3471510410309,
+        "Timestamp": "2025-08-24_23-01",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou do NOT have access to audio or transcript.\nBase your  decision solely on the video of the speaker while speaking.\n\nFocus exclusively on visual sarcasm cues such as:\n- Facial expressions (e.g., smirks, raised eyebrows, eye rolls)\n- Gestures and hand movements\n- Body language and posture\n\nUse these visual signals to decide if the speakers intent is sarcastic.\n\nExamples:\n\nInput Video: Speaker rolls eyes and smirks while speaking  \nOutput: sarc\n\nInput Video: Speaker maintains neutral expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.39,
+                "recall_sarc": 0.2,
+                "f1_score_sarc": 0.26,
+                "precision_non_sarc": 0.37,
+                "recall_non_sarc": 0.6,
+                "f1_score_non_sarc": 0.46,
+                "precision_macro": 0.38,
+                "recall_macro": 0.4,
+                "f1_macro": 0.36,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.46,
+                "recall_sarc_gold": 0.2,
+                "f1_score_sarc_gold": 0.28,
+                "precision_non_sarc_gold": 0.32,
+                "recall_non_sarc_gold": 0.63,
+                "f1_score_non_sarc_gold": 0.43,
+                "precision_macro_gold": 0.39,
+                "recall_macro_gold": 0.41,
+                "f1_macro_gold": 0.35,
+                "error_rate_gold": 0.0
+            }
+        }
+    }
+]

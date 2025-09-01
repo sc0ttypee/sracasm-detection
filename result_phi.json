@@ -1,0 +1,1430 @@
+[
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "text-only",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.76,
+                "recall_sarc": 0.38,
+                "f1_score_sarc": 0.5,
+                "precision_non_sarc": 0.52,
+                "recall_non_sarc": 0.85,
+                "f1_score_non_sarc": 0.64,
+                "precision_macro": 0.64,
+                "recall_macro": 0.61,
+                "f1_macro": 0.57,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.8,
+                "recall_sarc_gold": 0.39,
+                "f1_score_sarc_gold": 0.52,
+                "precision_non_sarc_gold": 0.46,
+                "recall_non_sarc_gold": 0.85,
+                "f1_score_non_sarc_gold": 0.6,
+                "precision_macro_gold": 0.63,
+                "recall_macro_gold": 0.62,
+                "f1_macro_gold": 0.56,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-text-video",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.33,
+                "f1_score_sarc": 0.45,
+                "precision_non_sarc": 0.5,
+                "recall_non_sarc": 0.86,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.62,
+                "recall_macro": 0.59,
+                "f1_macro": 0.54,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.79,
+                "recall_sarc_gold": 0.34,
+                "f1_score_sarc_gold": 0.48,
+                "precision_non_sarc_gold": 0.44,
+                "recall_non_sarc_gold": 0.85,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.61,
+                "recall_macro_gold": 0.6,
+                "f1_macro_gold": 0.53,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "text-only",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.77,
+                "recall_sarc": 0.31,
+                "f1_score_sarc": 0.44,
+                "precision_non_sarc": 0.5,
+                "recall_non_sarc": 0.88,
+                "f1_score_non_sarc": 0.64,
+                "precision_macro": 0.64,
+                "recall_macro": 0.6,
+                "f1_macro": 0.54,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.79,
+                "recall_sarc_gold": 0.32,
+                "f1_score_sarc_gold": 0.46,
+                "precision_non_sarc_gold": 0.44,
+                "recall_non_sarc_gold": 0.86,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.62,
+                "recall_macro_gold": 0.59,
+                "f1_macro_gold": 0.52,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "text-only",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.77,
+                "recall_sarc": 0.31,
+                "f1_score_sarc": 0.44,
+                "precision_non_sarc": 0.5,
+                "recall_non_sarc": 0.88,
+                "f1_score_non_sarc": 0.64,
+                "precision_macro": 0.64,
+                "recall_macro": 0.6,
+                "f1_macro": 0.54,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.79,
+                "recall_sarc_gold": 0.32,
+                "f1_score_sarc_gold": 0.46,
+                "precision_non_sarc_gold": 0.44,
+                "recall_non_sarc_gold": 0.86,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.62,
+                "recall_macro_gold": 0.59,
+                "f1_macro_gold": 0.52,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-text-video",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.32,
+                "f1_score_sarc": 0.44,
+                "precision_non_sarc": 0.49,
+                "recall_non_sarc": 0.86,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.62,
+                "recall_macro": 0.59,
+                "f1_macro": 0.54,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.78,
+                "recall_sarc_gold": 0.33,
+                "f1_score_sarc_gold": 0.47,
+                "precision_non_sarc_gold": 0.44,
+                "recall_non_sarc_gold": 0.85,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.61,
+                "recall_macro_gold": 0.59,
+                "f1_macro_gold": 0.52,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-text-video",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.76,
+                "recall_sarc": 0.29,
+                "f1_score_sarc": 0.42,
+                "precision_non_sarc": 0.49,
+                "recall_non_sarc": 0.88,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.63,
+                "recall_macro": 0.59,
+                "f1_macro": 0.53,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.79,
+                "recall_sarc_gold": 0.31,
+                "f1_score_sarc_gold": 0.45,
+                "precision_non_sarc_gold": 0.44,
+                "recall_non_sarc_gold": 0.86,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.61,
+                "recall_macro_gold": 0.59,
+                "f1_macro_gold": 0.51,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-text-video",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with three inputs:\n\n1. A transcript of the spoken text (analyze linguistic cues such as irony, exaggeration, contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n3. A video of the speaker while speaking (analyze facial expressions like smirks, raised eyebrows, eye rolls, as well as gestures and body language)\n\nUse all three modalities together to accurately judge if the speakers intent is sarcastic.\n\nExamples:\n\nTranscript: Na das Wetter ist ja mal wieder super!\nAudio: Speaker uses exaggerated rising intonation and slow pacing  \nVideo: Speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nTranscript: Heute morgen war das Wetter eher schlecht.\nAudio: Speaker uses neutral tone and steady pacing  \nVideo: Speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 1.0,
+                "recall_sarc": 0.11,
+                "f1_score_sarc": 0.2,
+                "precision_non_sarc": 0.47,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.64,
+                "precision_macro": 0.73,
+                "recall_macro": 0.55,
+                "f1_macro": 0.42,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 1.0,
+                "recall_sarc_gold": 0.14,
+                "f1_score_sarc_gold": 0.24,
+                "precision_non_sarc_gold": 0.42,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.59,
+                "precision_macro_gold": 0.71,
+                "recall_macro_gold": 0.57,
+                "f1_macro_gold": 0.41,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-text-video",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with three inputs:\n\n1. A transcript of the spoken text (analyze linguistic cues such as irony, exaggeration, contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n3. A video of the speaker while speaking (analyze facial expressions like smirks, raised eyebrows, eye rolls, as well as gestures and body language)\n\nUse all three modalities together to accurately judge if the speakers intent is sarcastic.\n\nExamples:\n\nTranscript: Na das Wetter ist ja mal wieder super!\nAudio: Speaker uses exaggerated rising intonation and slow pacing  \nVideo: Speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nTranscript: Heute morgen war das Wetter eher schlecht.\nAudio: Speaker uses neutral tone and steady pacing  \nVideo: Speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 1.0,
+                "recall_sarc": 0.09,
+                "f1_score_sarc": 0.17,
+                "precision_non_sarc": 0.46,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.73,
+                "recall_macro": 0.55,
+                "f1_macro": 0.4,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 1.0,
+                "recall_sarc_gold": 0.11,
+                "f1_score_sarc_gold": 0.21,
+                "precision_non_sarc_gold": 0.41,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.7,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.39,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-text-video",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with three inputs:\n\n1. A transcript of the spoken text (analyze linguistic cues such as irony, exaggeration, contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n3. A video of the speaker while speaking (analyze facial expressions like smirks, raised eyebrows, eye rolls, as well as gestures and body language)\n\nUse all three modalities together to accurately judge if the speakers intent is sarcastic.\n\nExamples:\n\nTranscript: Na das Wetter ist ja mal wieder super!\nAudio: Speaker uses exaggerated rising intonation and slow pacing  \nVideo: Speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nTranscript: Heute morgen war das Wetter eher schlecht.\nAudio: Speaker uses neutral tone and steady pacing  \nVideo: Speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 1.0,
+                "recall_sarc": 0.09,
+                "f1_score_sarc": 0.17,
+                "precision_non_sarc": 0.46,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.73,
+                "recall_macro": 0.55,
+                "f1_macro": 0.4,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 1.0,
+                "recall_sarc_gold": 0.11,
+                "f1_score_sarc_gold": 0.21,
+                "precision_non_sarc_gold": 0.41,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.7,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.39,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-video",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.8,
+                "recall_sarc": 0.07,
+                "f1_score_sarc": 0.12,
+                "precision_non_sarc": 0.45,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.62,
+                "precision_macro": 0.63,
+                "recall_macro": 0.52,
+                "f1_macro": 0.37,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.78,
+                "recall_sarc_gold": 0.07,
+                "f1_score_sarc_gold": 0.13,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.56,
+                "precision_macro_gold": 0.58,
+                "recall_macro_gold": 0.52,
+                "f1_macro_gold": 0.34,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-video",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.05,
+                "f1_score_sarc": 0.09,
+                "precision_non_sarc": 0.45,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.6,
+                "recall_macro": 0.51,
+                "f1_macro": 0.35,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.75,
+                "recall_sarc_gold": 0.06,
+                "f1_score_sarc_gold": 0.12,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.57,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.33,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-video",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.05,
+                "f1_score_sarc": 0.09,
+                "precision_non_sarc": 0.45,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.6,
+                "recall_macro": 0.51,
+                "f1_macro": 0.35,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.75,
+                "recall_sarc_gold": 0.06,
+                "f1_score_sarc_gold": 0.12,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.57,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.33,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-language",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.5,
+                "recall_sarc": 0.05,
+                "f1_score_sarc": 0.09,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 0.94,
+                "f1_score_non_sarc": 0.6,
+                "precision_macro": 0.47,
+                "recall_macro": 0.49,
+                "f1_macro": 0.34,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.56,
+                "recall_sarc_gold": 0.05,
+                "f1_score_sarc_gold": 0.1,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 0.93,
+                "f1_score_non_sarc_gold": 0.54,
+                "precision_macro_gold": 0.47,
+                "recall_macro_gold": 0.49,
+                "f1_macro_gold": 0.32,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-video",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. An audio recording of the speaker (analyze prosody, tone, pitch, pacing, intonation)\n2. A video recording of the speaker (analyze facial expressions such as smirks, raised eyebrows, eye rolls, and body language)\n\nUse BOTH audio and video cues together to judge if the speakers intent is sarcastic.\n\nExamples:\n\nAudio: The speaker uses exaggerated rising intonation and slow pacing on a positive phrase  \nVideo: The speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nAudio: The speaker uses neutral tone and steady pacing  \nVideo: The speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 1.0,
+                "recall_sarc": 0.02,
+                "f1_score_sarc": 0.03,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.72,
+                "recall_macro": 0.51,
+                "f1_macro": 0.32,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 1.0,
+                "recall_sarc_gold": 0.02,
+                "f1_score_sarc_gold": 0.04,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.56,
+                "precision_macro_gold": 0.69,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.3,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-video",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. An audio recording of the speaker (analyze prosody, tone, pitch, pacing, intonation)\n2. A video recording of the speaker (analyze facial expressions such as smirks, raised eyebrows, eye rolls, and body language)\n\nUse BOTH audio and video cues together to judge if the speakers intent is sarcastic.\n\nExamples:\n\nAudio: The speaker uses exaggerated rising intonation and slow pacing on a positive phrase  \nVideo: The speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nAudio: The speaker uses neutral tone and steady pacing  \nVideo: The speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 1.0,
+                "recall_sarc": 0.02,
+                "f1_score_sarc": 0.03,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.72,
+                "recall_macro": 0.51,
+                "f1_macro": 0.32,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 1.0,
+                "recall_sarc_gold": 0.02,
+                "f1_score_sarc_gold": 0.04,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.56,
+                "precision_macro_gold": 0.69,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.3,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-video",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. An audio recording of the speaker (analyze prosody, tone, pitch, pacing, intonation)\n2. A video recording of the speaker (analyze facial expressions such as smirks, raised eyebrows, eye rolls, and body language)\n\nUse BOTH audio and video cues together to judge if the speakers intent is sarcastic.\n\nExamples:\n\nAudio: The speaker uses exaggerated rising intonation and slow pacing on a positive phrase  \nVideo: The speaker smirks and raises eyebrows while speaking  \nOutput: sarc\n\nAudio: The speaker uses neutral tone and steady pacing  \nVideo: The speaker maintains relaxed posture and neutral facial expression  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 1.0,
+                "recall_sarc": 0.01,
+                "f1_score_sarc": 0.02,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.72,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 1.0,
+                "recall_sarc_gold": 0.01,
+                "f1_score_sarc_gold": 0.02,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.69,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.29,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-language",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.25,
+                "recall_sarc": 0.01,
+                "f1_score_sarc": 0.02,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 0.97,
+                "f1_score_non_sarc": 0.6,
+                "precision_macro": 0.34,
+                "recall_macro": 0.49,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.5,
+                "recall_sarc_gold": 0.01,
+                "f1_score_sarc_gold": 0.02,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 0.98,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.44,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.29,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-language",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.2,
+                "recall_sarc": 0.01,
+                "f1_score_sarc": 0.02,
+                "precision_non_sarc": 0.43,
+                "recall_non_sarc": 0.96,
+                "f1_score_non_sarc": 0.6,
+                "precision_macro": 0.32,
+                "recall_macro": 0.48,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.33,
+                "recall_sarc_gold": 0.01,
+                "f1_score_sarc_gold": 0.02,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.54,
+                "precision_macro_gold": 0.36,
+                "recall_macro_gold": 0.49,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-only",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.2,
+                "recall_sarc": 0.01,
+                "f1_score_sarc": 0.02,
+                "precision_non_sarc": 0.43,
+                "recall_non_sarc": 0.96,
+                "f1_score_non_sarc": 0.59,
+                "precision_macro": 0.32,
+                "recall_macro": 0.48,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.25,
+                "recall_sarc_gold": 0.01,
+                "f1_score_sarc_gold": 0.02,
+                "precision_non_sarc_gold": 0.37,
+                "recall_non_sarc_gold": 0.95,
+                "f1_score_non_sarc_gold": 0.53,
+                "precision_macro_gold": 0.31,
+                "recall_macro_gold": 0.48,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-only",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.2,
+                "recall_sarc": 0.01,
+                "f1_score_sarc": 0.02,
+                "precision_non_sarc": 0.43,
+                "recall_non_sarc": 0.96,
+                "f1_score_non_sarc": 0.59,
+                "precision_macro": 0.32,
+                "recall_macro": 0.48,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.25,
+                "recall_sarc_gold": 0.01,
+                "f1_score_sarc_gold": 0.02,
+                "precision_non_sarc_gold": 0.37,
+                "recall_non_sarc_gold": 0.95,
+                "f1_score_non_sarc_gold": 0.53,
+                "precision_macro_gold": 0.31,
+                "recall_macro_gold": 0.48,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-only",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou do NOT have access to audio or transcript.\nBase your  decision solely on the video of the speaker while speaking.\n\nFocus exclusively on visual sarcasm cues such as:\n- Facial expressions (e.g., smirks, raised eyebrows, eye rolls)\n- Gestures and hand movements\n- Body language and posture\n\nUse these visual signals to decide if the speakers intent is sarcastic.\n\nExamples:\n\nInput Video: Speaker rolls eyes and smirks while speaking  \nOutput: sarc\n\nInput Video: Speaker maintains neutral expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.22,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.19,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-only",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.22,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.19,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-only",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.22,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.19,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-only",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.22,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.19,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-only",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou do NOT have access to audio or transcript.\nBase your  decision solely on the video of the speaker while speaking.\n\nFocus exclusively on visual sarcasm cues such as:\n- Facial expressions (e.g., smirks, raised eyebrows, eye rolls)\n- Gestures and hand movements\n- Body language and posture\n\nUse these visual signals to decide if the speakers intent is sarcastic.\n\nExamples:\n\nInput Video: Speaker rolls eyes and smirks while speaking  \nOutput: sarc\n\nInput Video: Speaker maintains neutral expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.22,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.19,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-only",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou do NOT have access to audio or transcript.\nBase your  decision solely on the video of the speaker while speaking.\n\nFocus exclusively on visual sarcasm cues such as:\n- Facial expressions (e.g., smirks, raised eyebrows, eye rolls)\n- Gestures and hand movements\n- Body language and posture\n\nUse these visual signals to decide if the speakers intent is sarcastic.\n\nExamples:\n\nInput Video: Speaker rolls eyes and smirks while speaking  \nOutput: sarc\n\nInput Video: Speaker maintains neutral expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.22,
+                "recall_macro": 0.5,
+                "f1_macro": 0.31,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.19,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.28,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-only",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.17,
+                "recall_sarc": 0.01,
+                "f1_score_sarc": 0.02,
+                "precision_non_sarc": 0.43,
+                "recall_non_sarc": 0.95,
+                "f1_score_non_sarc": 0.59,
+                "precision_macro": 0.3,
+                "recall_macro": 0.48,
+                "f1_macro": 0.3,
+                "error_rate": 0.0
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.2,
+                "recall_sarc_gold": 0.01,
+                "f1_score_sarc_gold": 0.02,
+                "precision_non_sarc_gold": 0.37,
+                "recall_non_sarc_gold": 0.93,
+                "f1_score_non_sarc_gold": 0.53,
+                "precision_macro_gold": 0.28,
+                "recall_macro_gold": 0.47,
+                "f1_macro_gold": 0.27,
+                "error_rate_gold": 0.0
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "text-only",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will be given ONE short sentence at a time, containing the transcript of a spoken statement.\n\nExamples:\nInput: Na das läuft ja mal wieder super!\nOutput: sarc\n\nInput: Heute morgen war das Wetter eher schlecht.\nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.68,
+                "recall_sarc": 0.85,
+                "f1_score_sarc": 0.76,
+                "precision_non_sarc": 0.73,
+                "recall_non_sarc": 0.49,
+                "f1_score_non_sarc": 0.59,
+                "precision_macro": 0.7,
+                "recall_macro": 0.67,
+                "f1_macro": 0.67,
+                "error_rate": 0.02
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.75,
+                "recall_sarc_gold": 0.89,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.75,
+                "recall_non_sarc_gold": 0.52,
+                "f1_score_non_sarc_gold": 0.61,
+                "precision_macro_gold": 0.75,
+                "recall_macro_gold": 0.7,
+                "f1_macro_gold": 0.71,
+                "error_rate_gold": 0.03
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "text-only",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will be given ONE short sentence at a time, containing the transcript of a spoken statement.\n\nExamples:\nInput: Na das läuft ja mal wieder super!\nOutput: sarc\n\nInput: Heute morgen war das Wetter eher schlecht.\nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.68,
+                "recall_sarc": 0.85,
+                "f1_score_sarc": 0.76,
+                "precision_non_sarc": 0.73,
+                "recall_non_sarc": 0.49,
+                "f1_score_non_sarc": 0.59,
+                "precision_macro": 0.7,
+                "recall_macro": 0.67,
+                "f1_macro": 0.67,
+                "error_rate": 0.02
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.75,
+                "recall_sarc_gold": 0.89,
+                "f1_score_sarc_gold": 0.81,
+                "precision_non_sarc_gold": 0.75,
+                "recall_non_sarc_gold": 0.52,
+                "f1_score_non_sarc_gold": 0.61,
+                "precision_macro_gold": 0.75,
+                "recall_macro_gold": 0.7,
+                "f1_macro_gold": 0.71,
+                "error_rate_gold": 0.03
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "text-only",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will be given ONE short sentence at a time, containing the transcript of a spoken statement.\n\nExamples:\nInput: Na das läuft ja mal wieder super!\nOutput: sarc\n\nInput: Heute morgen war das Wetter eher schlecht.\nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.67,
+                "recall_sarc": 0.87,
+                "f1_score_sarc": 0.76,
+                "precision_non_sarc": 0.74,
+                "recall_non_sarc": 0.46,
+                "f1_score_non_sarc": 0.57,
+                "precision_macro": 0.71,
+                "recall_macro": 0.67,
+                "f1_macro": 0.66,
+                "error_rate": 0.02
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.74,
+                "recall_sarc_gold": 0.91,
+                "f1_score_sarc_gold": 0.82,
+                "precision_non_sarc_gold": 0.78,
+                "recall_non_sarc_gold": 0.5,
+                "f1_score_non_sarc_gold": 0.61,
+                "precision_macro_gold": 0.76,
+                "recall_macro_gold": 0.71,
+                "f1_macro_gold": 0.72,
+                "error_rate_gold": 0.03
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-language",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two kinds of input:\n\n1. A transcript of the spoken text (what is said)\n2. A video of the speaker while speaking (how it is said)\n\nAnalyze the transcript for linguistic cues such as irony, contradiction, exaggeration, and phrasing.\n\nSimultaneously analyze the video for visual cues including facial expressions (e.g., smirks, raised eyebrows, eye rolls), gestures, posture, and body language that typically signal sarcasm.\n\nUse BOTH modalities together to make your judgment.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super! \nInput Video: Speaker rolls eyes and smirks while saying the sentence  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht.\nInput Video: Speaker maintains neutral facial expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.05,
+                "f1_score_sarc": 0.1,
+                "precision_non_sarc": 0.45,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.6,
+                "recall_macro": 0.51,
+                "f1_macro": 0.36,
+                "error_rate": 0.02
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.75,
+                "recall_sarc_gold": 0.06,
+                "f1_score_sarc_gold": 0.12,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.56,
+                "precision_macro_gold": 0.57,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.34,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-language",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two kinds of input:\n\n1. A transcript of the spoken text (what is said)\n2. A video of the speaker while speaking (how it is said)\n\nAnalyze the transcript for linguistic cues such as irony, contradiction, exaggeration, and phrasing.\n\nSimultaneously analyze the video for visual cues including facial expressions (e.g., smirks, raised eyebrows, eye rolls), gestures, posture, and body language that typically signal sarcasm.\n\nUse BOTH modalities together to make your judgment.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super! \nInput Video: Speaker rolls eyes and smirks while saying the sentence  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht.\nInput Video: Speaker maintains neutral facial expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.05,
+                "f1_score_sarc": 0.1,
+                "precision_non_sarc": 0.45,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.61,
+                "precision_macro": 0.6,
+                "recall_macro": 0.51,
+                "f1_macro": 0.36,
+                "error_rate": 0.02
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.75,
+                "recall_sarc_gold": 0.06,
+                "f1_score_sarc_gold": 0.12,
+                "precision_non_sarc_gold": 0.39,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.56,
+                "precision_macro_gold": 0.57,
+                "recall_macro_gold": 0.51,
+                "f1_macro_gold": 0.34,
+                "error_rate_gold": 0.01
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-language",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two kinds of input:\n\n1. A transcript of the spoken text (what is said)\n2. A video of the speaker while speaking (how it is said)\n\nAnalyze the transcript for linguistic cues such as irony, contradiction, exaggeration, and phrasing.\n\nSimultaneously analyze the video for visual cues including facial expressions (e.g., smirks, raised eyebrows, eye rolls), gestures, posture, and body language that typically signal sarcasm.\n\nUse BOTH modalities together to make your judgment.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super! \nInput Video: Speaker rolls eyes and smirks while saying the sentence  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht.\nInput Video: Speaker maintains neutral facial expression and relaxed posture  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.67,
+                "recall_sarc": 0.03,
+                "f1_score_sarc": 0.07,
+                "precision_non_sarc": 0.44,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.6,
+                "precision_macro": 0.55,
+                "recall_macro": 0.51,
+                "f1_macro": 0.33,
+                "error_rate": 0.03
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.67,
+                "recall_sarc_gold": 0.04,
+                "f1_score_sarc_gold": 0.08,
+                "precision_non_sarc_gold": 0.38,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.55,
+                "precision_macro_gold": 0.53,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.31,
+                "error_rate_gold": 0.02
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-language",
+        "Configuration": "config_01_simple_prompts",
+        "Execution Time": 46.536367654800415,
+        "Timestamp": "2025-08-24_22-27",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.83,
+                "recall_sarc": 0.17,
+                "f1_score_sarc": 0.29,
+                "precision_non_sarc": 0.47,
+                "recall_non_sarc": 0.95,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.65,
+                "recall_macro": 0.56,
+                "f1_macro": 0.46,
+                "error_rate": 0.05
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.84,
+                "recall_sarc_gold": 0.17,
+                "f1_score_sarc_gold": 0.29,
+                "precision_non_sarc_gold": 0.42,
+                "recall_non_sarc_gold": 0.95,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.63,
+                "recall_macro_gold": 0.56,
+                "f1_macro_gold": 0.43,
+                "error_rate_gold": 0.02
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-language",
+        "Configuration": "config_02_simple_prompts",
+        "Execution Time": 41.72738862037659,
+        "Timestamp": "2025-08-24_23-20",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.75,
+                "recall_sarc": 0.16,
+                "f1_score_sarc": 0.26,
+                "precision_non_sarc": 0.47,
+                "recall_non_sarc": 0.93,
+                "f1_score_non_sarc": 0.62,
+                "precision_macro": 0.61,
+                "recall_macro": 0.55,
+                "f1_macro": 0.44,
+                "error_rate": 0.07
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.78,
+                "recall_sarc_gold": 0.16,
+                "f1_score_sarc_gold": 0.26,
+                "precision_non_sarc_gold": 0.42,
+                "recall_non_sarc_gold": 0.93,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.6,
+                "recall_macro_gold": 0.54,
+                "f1_macro_gold": 0.42,
+                "error_rate_gold": 0.04
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "vision-language",
+        "Configuration": "config_03_simple_prompts",
+        "Execution Time": 31.081888914108276,
+        "Timestamp": "2025-08-26_00-12",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.84,
+                "recall_sarc": 0.14,
+                "f1_score_sarc": 0.24,
+                "precision_non_sarc": 0.46,
+                "recall_non_sarc": 0.97,
+                "f1_score_non_sarc": 0.63,
+                "precision_macro": 0.65,
+                "recall_macro": 0.55,
+                "f1_macro": 0.43,
+                "error_rate": 0.07
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.87,
+                "recall_sarc_gold": 0.14,
+                "f1_score_sarc_gold": 0.25,
+                "precision_non_sarc_gold": 0.42,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.58,
+                "precision_macro_gold": 0.64,
+                "recall_macro_gold": 0.55,
+                "f1_macro_gold": 0.41,
+                "error_rate_gold": 0.04
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-only",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will receive ONE short audio clip at a time with NO transcript or video available.\n\nBase your decision solely on the audio recording of their speech.\n\nUse ONLY vocal cues such as tone, pitch, pacing, rhythm, stress, intonation, and prosody to decide if the speakers intent is sarcastic.\n\nExamples:\nAudio example 1: Speaker uses exaggerated rising intonation and slow pacing in a positive phrase that sounds insincere  \nOutput: sarc\n\nAudio example 2: Speaker uses normal pitch, steady pacing, and neutral tone in a factual statement  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.83,
+                "recall_sarc": 0.15,
+                "f1_score_sarc": 0.25,
+                "precision_non_sarc": 0.51,
+                "recall_non_sarc": 0.97,
+                "f1_score_non_sarc": 0.67,
+                "precision_macro": 0.67,
+                "recall_macro": 0.56,
+                "f1_macro": 0.46,
+                "error_rate": 0.4
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.83,
+                "recall_sarc_gold": 0.19,
+                "f1_score_sarc_gold": 0.31,
+                "precision_non_sarc_gold": 0.48,
+                "recall_non_sarc_gold": 0.95,
+                "f1_score_non_sarc_gold": 0.63,
+                "precision_macro_gold": 0.65,
+                "recall_macro_gold": 0.57,
+                "f1_macro_gold": 0.47,
+                "error_rate_gold": 0.39
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-only",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will receive ONE short audio clip at a time with NO transcript or video available.\n\nBase your decision solely on the audio recording of their speech.\n\nUse ONLY vocal cues such as tone, pitch, pacing, rhythm, stress, intonation, and prosody to decide if the speakers intent is sarcastic.\n\nExamples:\nAudio example 1: Speaker uses exaggerated rising intonation and slow pacing in a positive phrase that sounds insincere  \nOutput: sarc\n\nAudio example 2: Speaker uses normal pitch, steady pacing, and neutral tone in a factual statement  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.83,
+                "recall_sarc": 0.15,
+                "f1_score_sarc": 0.25,
+                "precision_non_sarc": 0.5,
+                "recall_non_sarc": 0.97,
+                "f1_score_non_sarc": 0.66,
+                "precision_macro": 0.67,
+                "recall_macro": 0.56,
+                "f1_macro": 0.46,
+                "error_rate": 0.41
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.9,
+                "recall_sarc_gold": 0.18,
+                "f1_score_sarc_gold": 0.3,
+                "precision_non_sarc_gold": 0.47,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.63,
+                "precision_macro_gold": 0.68,
+                "recall_macro_gold": 0.58,
+                "f1_macro_gold": 0.47,
+                "error_rate_gold": 0.44
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-only",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou will receive ONE short audio clip at a time with NO transcript or video available.\n\nBase your decision solely on the audio recording of their speech.\n\nUse ONLY vocal cues such as tone, pitch, pacing, rhythm, stress, intonation, and prosody to decide if the speakers intent is sarcastic.\n\nExamples:\nAudio example 1: Speaker uses exaggerated rising intonation and slow pacing in a positive phrase that sounds insincere  \nOutput: sarc\n\nAudio example 2: Speaker uses normal pitch, steady pacing, and neutral tone in a factual statement  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.86,
+                "recall_sarc": 0.14,
+                "f1_score_sarc": 0.24,
+                "precision_non_sarc": 0.56,
+                "recall_non_sarc": 0.98,
+                "f1_score_non_sarc": 0.71,
+                "precision_macro": 0.71,
+                "recall_macro": 0.56,
+                "f1_macro": 0.47,
+                "error_rate": 0.57
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.86,
+                "recall_sarc_gold": 0.18,
+                "f1_score_sarc_gold": 0.29,
+                "precision_non_sarc_gold": 0.56,
+                "recall_non_sarc_gold": 0.97,
+                "f1_score_non_sarc_gold": 0.71,
+                "precision_macro_gold": 0.71,
+                "recall_macro_gold": 0.57,
+                "f1_macro_gold": 0.5,
+                "error_rate_gold": 0.55
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-language",
+        "Configuration": "config_02_special_prompts",
+        "Execution Time": 38.88005590438843,
+        "Timestamp": "2025-08-25_23-56",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. A transcript of the spoken text (analyze phrasing, irony, exaggeration, and contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n\nUse BOTH inputs together to decide if the speaker’s intent is sarcastic.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super!  \nInput Audio: Speaker uses slow pacing and exaggerated rising intonation  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht. \nInput Audio: Speaker uses neutral tone and steady pacing  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.4,
+                "recall_sarc": 0.09,
+                "f1_score_sarc": 0.14,
+                "precision_non_sarc": 0.19,
+                "recall_non_sarc": 0.62,
+                "f1_score_non_sarc": 0.29,
+                "precision_macro": 0.3,
+                "recall_macro": 0.36,
+                "f1_macro": 0.22,
+                "error_rate": 0.86
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.33,
+                "recall_sarc_gold": 0.06,
+                "f1_score_sarc_gold": 0.1,
+                "precision_non_sarc_gold": 0.11,
+                "recall_non_sarc_gold": 0.5,
+                "f1_score_non_sarc_gold": 0.18,
+                "precision_macro_gold": 0.22,
+                "recall_macro_gold": 0.28,
+                "f1_macro_gold": 0.14,
+                "error_rate_gold": 0.86
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-language",
+        "Configuration": "config_01_special_prompts",
+        "Execution Time": 44.139057636260986,
+        "Timestamp": "2025-08-24_22-54",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. A transcript of the spoken text (analyze phrasing, irony, exaggeration, and contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n\nUse BOTH inputs together to decide if the speaker’s intent is sarcastic.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super!  \nInput Audio: Speaker uses slow pacing and exaggerated rising intonation  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht. \nInput Audio: Speaker uses neutral tone and steady pacing  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.19,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.31,
+                "precision_macro": 0.09,
+                "recall_macro": 0.5,
+                "f1_macro": 0.16,
+                "error_rate": 0.87
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.11,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.19,
+                "precision_macro_gold": 0.05,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.1,
+                "error_rate_gold": 0.88
+            }
+        }
+    },
+    {
+        "Model": "microsoft/Phi-4-multimodal-instruct",
+        "Mode": "audio-language",
+        "Configuration": "config_03_special_prompts",
+        "Execution Time": 31.165550470352173,
+        "Timestamp": "2025-08-26_00-28",
+        "Prompt": "\nDecide based on the input, if the given utterance is sarcastic or not sarcastic.\n\nAnswer ONLY with 'sarc' or 'non-sarc'.\n\nYou are provided with two inputs:\n\n1. A transcript of the spoken text (analyze phrasing, irony, exaggeration, and contradiction)\n2. An audio recording of the speech (analyze prosody, tone, pitch, pacing, and intonation)\n\nUse BOTH inputs together to decide if the speaker’s intent is sarcastic.\n\nExamples:\n\nInput Transcript: Na das Wetter ist ja mal wieder super!  \nInput Audio: Speaker uses slow pacing and exaggerated rising intonation  \nOutput: sarc\n\nInput Transcript: Heute morgen war das Wetter eher schlecht. \nInput Audio: Speaker uses neutral tone and steady pacing  \nOutput: non-sarc\n",
+        "Metrics": {
+            "full_dataset": {
+                "precision_sarc": 0.0,
+                "recall_sarc": 0.0,
+                "f1_score_sarc": 0.0,
+                "precision_non_sarc": 0.22,
+                "recall_non_sarc": 1.0,
+                "f1_score_non_sarc": 0.36,
+                "precision_macro": 0.11,
+                "recall_macro": 0.5,
+                "f1_macro": 0.18,
+                "error_rate": 0.92
+            },
+            "gold_standard": {
+                "precision_sarc_gold": 0.0,
+                "recall_sarc_gold": 0.0,
+                "f1_score_sarc_gold": 0.0,
+                "precision_non_sarc_gold": 0.15,
+                "recall_non_sarc_gold": 1.0,
+                "f1_score_non_sarc_gold": 0.27,
+                "precision_macro_gold": 0.08,
+                "recall_macro_gold": 0.5,
+                "f1_macro_gold": 0.13,
+                "error_rate_gold": 0.92
+            }
+        }
+    }
+]
